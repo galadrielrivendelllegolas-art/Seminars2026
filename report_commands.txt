@@ -1,0 +1,91 @@
+  143  git --version
+  145  sudo apt install git
+  146  git config --global user.name "Arinka"
+  147  git config --global user.email "galadrielrivendelllegolas@gmail.com"
+  152  ssh -T git@github.com
+  154  git init
+  155  git remote add origin git@github.com:galagrielrivendelllegolas-art/Seminars2026.git
+  156  git remote -v
+  157  git checkout -b develop
+  159  git add data/samples.tsv
+  160  git commit 
+  161  git commit -m "Add samples.tsv"
+  162  git remote -v
+  163  git checkout main
+  164  git branch
+  165  git branch main
+  166  git checkout main
+  169  git clone https://github.com/Weakne55/Bioinformatics305.git
+  171  git remote -v
+  172  git remote remove origin
+  173  git remote add origin git@github.com:galagrielrivendelllegolas-art/Seminars2026.git
+  174  git push -u origin --all
+  176  git remote -v
+  177  git remote add origin git@github.com:galagrielrivendelllegolas-art/Seminars2026.git
+  178  git push -u origin --all
+  179  git branch -M master main
+  180  git push -u origin main -f
+  181  git branch
+  183  git branch -M master main
+  185  git remote add origin git@github.com:galadrielrivendelllegolas-art/Seminars2026.git
+  187  git branch
+  188  git remote add origin git@github.com:galadrielrivendelllegolas-art/Seminars2026.git
+  189  git push -u origin main
+  190  git remote set-url origin git@github.com:galadrielrivendelllegolas-art/Seminars2026.git
+  191  git push -u origin main
+  193  git add .
+  194  git commit -m "Cleanup term files"
+  195  git push
+  199  git add lab_disaster/raw_data/
+  201  git status
+  202  git add lab_disaster/raw_data/
+  203  git commit -m "Cleanup temp files"
+  204  git push
+  213  git checkout -b investigation
+  214  git add infected_reads.txt
+  215  git push
+  216  git commit -m "Add infected_reads.txt"
+  217  git push
+  218  git push -u origin investigation
+  222  git add mini_run.fast
+  223  git add mini_run.fastq
+  224  git commit -m "50+50"
+  225  git push
+  249  git branch
+  250  git status
+  257  git status
+  258  git restore experiment.log
+  259  echo "git restore experiment.log" > command.txt
+  260  git checkout main
+  261  git add command.txt
+  262  git commin -m "commands"
+  263  git commit -m "commands"
+  264  git push
+  270  git checkout main
+  271  git add access.log sort.txt
+  272  git commit -m "sortirovka userov"
+  273  git push
+  274  git checkout main
+  275  git merge investigation
+  276  git log --oneline --graph
+  277  git push
+  280  git checkout main
+  281  git add genes.tsv genes_fixed.csv
+  282  git commit -m "gen a b c"
+  283  git push
+  288  git checkout -b cleaning
+  289  git add diskusage.file
+  290  git commit -m "pro razmer fayla"
+  291  git push
+  292  git push -u origin cleaning
+  294  git add fayl.txt
+  295  git commit -m "zadanie 8 "
+  296  git log --oneline
+  298  git add forgotten.txt
+  299  git commit --amend --no-edit
+  300  git log --oneline
+  303  git checkout main
+  304  git add amend.txt
+  305  git commit -m "zadanie 8 blablabla"
+  306  git push
+  307  history | grep git > report_commands.txt
