@@ -1,0 +1,2 @@
+./greeter.sh Ivan      Error: and td
+./greeter.sh Ivan Ivanov Bio305        Welcome snd td
